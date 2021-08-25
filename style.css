@@ -153,11 +153,6 @@ header .fa-bars {
   color: var(--blue);
 }
 
-.home .content h3 {
-  font-size: 4rem;
-  color: var(--black);
-}
-
 .about {
   background: #eee;
 }
@@ -211,7 +206,7 @@ header .fa-bars {
 }
 
 .review {
-  background: url(../images/review-bg.jpg), linear-gradient(var(--black), var(--black)) no-repeat;
+  background: url(images/review-bg.jpg), linear-gradient(var(--black), var(--black)) no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -493,6 +488,15 @@ header .fa-times {
   header .nav-toggle {
     top: 50%;
     opacity: 1;
+  }
+
+  .home .content h1 {
+    padding-bottom: 10rem;
+    font-size: 4rem;
+  }
+
+  .home .content h2 {
+    font-size: 2rem;
   }
 
   .contact form .inputBox input,
