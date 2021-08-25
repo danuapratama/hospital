@@ -491,11 +491,11 @@ header .fa-times {
   }
 
   .home .content h1 {
-    padding-bottom: 10rem;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .home .content h2 {
+    padding-bottom: 3rem;
     font-size: 2rem;
   }
 
